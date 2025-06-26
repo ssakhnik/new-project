@@ -35,7 +35,7 @@ ul {
 .years {
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 3.6rem;
     margin: 20px 200px;
     font-family: "Nuosu SIL", sans-serif;
     font-size: 74px;
@@ -48,6 +48,7 @@ ul {
     font-size: 48px;
     font-weight: 400;
     font-style: normal;
+    margin-left: -2.1rem;
 }
 
 .underlined-word {
