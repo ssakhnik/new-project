@@ -63,12 +63,22 @@ ul {
     
 }
 
-img {
+image {
     width: 560px;
     height: 673.81px;
+ width: 50%;
+  height: auto; 
+    
 }
+
+
 
 .text {
     padding: 170px;
     line-height: 49px;
+    margin-top: -8rem;
+    margin: 3rem;
+    padding: 0;
+    border: 0;
+
 }

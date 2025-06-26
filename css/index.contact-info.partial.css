@@ -1,14 +1,29 @@
 /* index.contact-info.partial.css */
 
 .role-block {
-    display: flex;
-    gap: 2rem;
-    background-color: #1a1a1a;
-    padding: 2rem;
-    border-radius: 10px;
-    margin-bottom: 2rem;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: 14100d;
+  padding: 2rem;
+  border-radius: 10px;
+  margin: 3.5rem auto 2rem;
+  gap: 2rem;
 }
+
+.image {
+  width: 50%;
+  height: auto;
+}
+
+.image img {
+  width: 200%;
+  height: 110%;
+  object-fit: cover;
+  display: block;
+
+}
+
+
 
 .role-block .text {
     flex: 1 1 300px;
