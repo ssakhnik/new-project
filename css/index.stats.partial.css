@@ -77,27 +77,23 @@
     object-fit: cover;
 }
 
-/* Мобільна адаптація */
-@media (max-width: 768px) {
-    .role-block {
-        flex-direction: column;
-        padding-top: 43px !important;
-        padding-bottom: 43px !important;
-        padding-left: 43px !important;
-        padding-right: 43px !important;
-    }
-}
-
-@media (max-width: 768px) {
-    .years {
-        position: static;
-        display: block;
-        text-align: right;
-        margin-bottom: 1rem;
-    }
-}
 
 @media (max-width: 992px) {
+    
+
+    .role-block {
+        flex-direction: column;
+    }
+
+
+
+    .title {
+        width: 272px;
+        height: 176.78px;
+        margin: 50px 80px 10px -270px;
+        font-size: 33.5px;
+    }
+
     .text {
         margin: 0;
         padding: 0;
@@ -107,23 +103,28 @@
         vertical-align: baseline;
         line-height: 30px;
     }
-}
 
-@media (max-width: 992px) {
-    .title {
-        width: 272px;
-        height: 176.78px;
-        margin: 50px 80px 10px -270px;
-        font-size: 33.5px;
-    }
-}
-
-@media (max-width: 992px) {
     .years {
+        position: static;
+        display: block;
+        text-align: right;
         margin: 50px 80px 10px -270px;
         text-align: left;
         font-size: 55px;
         line-height: 56px;
     }
-}
 
+    .role-block {
+        flex-direction: column;
+        padding-top: 43px !important;
+        padding-bottom: 43px !important;
+        padding-left: 43px !important;
+        padding-right: 43px !important;
+    }
+
+    .awards {
+        line-height: 25px;
+        font-style: normal;
+    }
+
+}
