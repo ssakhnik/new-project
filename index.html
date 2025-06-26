@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Actor Portfolio</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    
+    <header class="site-header">
+        <h1 class="title">My Best Performances, <br>Stories, and Main Roles</h1>
+        <span class="years"2018-2024></span>
+    </header>
+
+    <main class="main-content">
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/index.header-hero.partial.html"
+      ></section>
+
+      <section
+        data-hx-trigger="load"
+        data-hx-swap="outerHTML"
+        data-hx-get="partials/index.stats.partial.html"
+      ></section>
+
+      <section
+      ></section>
+    </main>
+
+    <footer class="footer">
+      <!-- можна додати пізніше -->
+    </footer>
+  </body>
+</html>
