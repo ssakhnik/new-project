@@ -1,0 +1,91 @@
+.role-year {
+    font-size: 11px;
+    color: #DFD1C2;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    
+}
+
+.role-title {
+    font-size: 30px;
+    font-family: "Nuosu SIL", sans-serif;
+}
+
+
+.meta {
+    font-size: 11px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500; /* або bold — текст виглядає жирним */
+    text-transform: uppercase; /* великі літери */
+    letter-spacing: 1px; /* розрідження між літерами */
+    color: #FFFFFF; /* білий текст */
+}
+
+
+.role-block {
+    display: flex;
+    gap: 2rem;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.role-block .text {
+    flex: 1 1 300px;
+}
+
+.role-block .role-title {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.role-block .meta {
+    font-size: 0.9rem;
+    color: #c0c0c0;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+}
+
+.role-block .description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.role-block .awards li {
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    list-style: disc inside;
+}
+
+.role-block .image {
+    flex: 1 1 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.role-block .image img {
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Мобільна адаптація */
+@media (max-width: 768px) {
+    .role-block {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .years {
+        position: static;
+        display: block;
+        text-align: right;
+        margin-bottom: 1rem;
+    }
+}
+
