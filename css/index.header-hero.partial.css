@@ -2,13 +2,13 @@
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #CAA378;
+    color: var(--accent-color);
 }
 
 .name-properties {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
-    color: #C1C0C0;
+    color: var(--properties-color);
     font-weight: thin;
 }
 
@@ -16,13 +16,13 @@
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
-    color: #CAA378;
+    color: var(--accent-color);
 }
 
 .description-content {
     font-size: 16px;
     font-family: "Montserrat", sans-serif;
-    color: #C1C0C0;
+    color: var(--properties-color);
     font-weight: thin;
 }
 

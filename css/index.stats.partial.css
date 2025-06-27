@@ -11,7 +11,6 @@
     font-family: "Nuosu SIL", sans-serif;
 }
 
-
 .meta {
     font-size: 11px;
     font-family: "Montserrat", sans-serif;
@@ -24,7 +23,6 @@
     color: #FFFFFF;
     /* білий текст */
 }
-
 
 .role-block {
     display: flex;
@@ -79,13 +77,10 @@
 
 
 @media (max-width: 992px) {
-    
 
     .role-block {
         flex-direction: column;
     }
-
-
 
     .title {
         width: 272px;
